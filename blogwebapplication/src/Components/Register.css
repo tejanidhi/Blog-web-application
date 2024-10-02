@@ -1,0 +1,87 @@
+.register {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    /* background: linear-gradient(to bottom right, #FDC830, #F37335); */
+    background: linear-gradient(to bottom right, #0000005f, #1a1a1a);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 24px;
+    width: 36%; /* Adjust the width as desired */
+    background-color: #ffffff; /* Add the desired background color */
+  }
+
+  .already-registered {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 16px;
+  }
+  
+  .already-registered .login-link {
+    margin-left: 4px;
+    text-decoration: underline;
+    color: rgba(0, 0, 255, 0.792);
+  }
+  
+  
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 16px;
+  }
+  
+  
+  
+  .uname,
+  .pwd {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  input::placeholder {
+    color: #ccc;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  
+
+.register {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.uname,
+.pwd {
+  margin-bottom: 10px;
+}
+
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

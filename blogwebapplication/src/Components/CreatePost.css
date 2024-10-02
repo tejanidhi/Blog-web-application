@@ -1,0 +1,36 @@
+.create-post-form {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+
+.create-post-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.create-post-editor {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.create-post-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-post-button:hover {
+  background-color: #0056b3;
+}
+
+.create-post-button:focus {
+  outline: none;
+}
