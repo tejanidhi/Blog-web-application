@@ -1,5 +1,5 @@
 module.exports = {
-    mongodbConnectionString: 'mongodb+srv://root:root@cluster0.iwuxd.mongodb.net/FinalProject?retryWrites=true&w=majority',
-    secret : 'dkanfiapfjaofjoaf',
+    mongodbConnectionString: 'mongodb+srv://root:root@cluster0.....',
+    secret : 'dkanfiapf....',
     frontend_url: 'http://localhost:3000'
   };
